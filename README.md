@@ -16,24 +16,23 @@ Players can choose either Rock, Paper, or Scissors, and the computer randomly se
 
 ## Project Structure
 
-RockPaperScissorsProject/  # Local folder
-│
+```text
+.
 ├── src/
 │   ├── rps_gui.py          # GUI implementation
 │   └── rps_logic.py        # Game logic
-│
 ├── images/                 # Game images
 │   ├── rock-removebg-preview.png
 │   ├── paper-removebg-preview.png
 │   ├── scissors-removebg-preview.png
-│   ├── rps.png                   # Window icon
+│   ├── rps.png             # Window icon
 │   ├── titleimage-removebg-preview.png
 │   └── trophy-removebg-preview.png
-│
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 ├── LICENSE                 # License file
 └── .gitignore              # Files ignored by Git
+```
 
 ---
 
@@ -55,7 +54,7 @@ pip install -r requirements.txt
 1. Clone the repository:
    
    ```bash
-   git clone https://github.com/yourusername/rock-paper-scissors.git
+   git clone https://github.com/devinhien/rock-paper-scissors.git
    cd rock-paper-scissors
    ```
 
@@ -68,7 +67,7 @@ pip install -r requirements.txt
 3. Run the game:
 
    ```bash
-   python src/rps_gui.py
+   python src/rps_gui.py  # or use 'python3' if needed
    ```
 
 ---
